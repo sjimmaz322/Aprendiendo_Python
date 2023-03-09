@@ -23,3 +23,5 @@ print(type(mi_edad_str)) #Es String
 
 #len devuelve la longitud del str
 print(len(mi_edad_str))
+
+#No se pueden crear constantes, se puede pero no se puede definir directamente

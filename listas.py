@@ -85,3 +85,6 @@ print(lista_copiada)
 #Ordena por orden natural si todos los elementos son del mismo tipo
 mi_lista.sort()
 print(mi_lista)
+
+#Vamos a ver como hacer sublistas
+#Usando los subíndices como en las variables

@@ -36,5 +36,17 @@ del mi_otro_set  # Borramos la variable mi_otro_set completamente
 # Si tenemos un Set podemos convertirlo en List
 # Como el Set se crea en orden aleatorio no es recomendable
 mi_set = {"Pache", "Devs", 29}
-mi_lista = list(mi_set)
-print(mi_lista[0])
+# mi_lista = list(mi_set)
+# print(mi_lista[0])
+
+mi_otro_set = {"Java", "HTML", "Python"}
+
+# Podemos concatenar Sets con union
+mi_nuevo_set = mi_set.union(mi_otro_set)
+
+print(mi_nuevo_set)
+# Si hacemos un union en un set hacemos el union solo para esa ejecución
+print(mi_nuevo_set.union({"C#", "JavaScript"}))
+
+# Imprime los elementos que no están contenidos dentro del set pasado
+print(mi_nuevo_set.difference(mi_set))
